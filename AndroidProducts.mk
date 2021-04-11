@@ -15,9 +15,9 @@
 
 # inherit Moto G6 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_ali.mk
+    $(LOCAL_DIR)/dot_ali.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_ali-user \
-    aosp_ali-userdebug \
-    aosp_ali-eng
+    dot_ali-user \
+    dot_ali-userdebug \
+    dot_ali-eng
